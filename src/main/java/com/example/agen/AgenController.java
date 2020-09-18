@@ -13,7 +13,7 @@ public class AgenController {
 		private static final String template = "Hello, %s!";
 		private final AtomicLong counter = new AtomicLong();
 
-		@GetMapping("/greeting")
+		@GetMapping("/sample")
 		public Sample greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
 			return new Sample(counter.incrementAndGet(), String.format(template, name));
 		}
