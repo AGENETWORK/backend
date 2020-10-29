@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AgenApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(AgenApplication.class, args);
-	}
+    public static void main(String[] args) {
+	SpringApplication.run(AgenApplication.class, args);
+    }
 
 }
